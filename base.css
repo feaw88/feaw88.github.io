@@ -1,7 +1,6 @@
 body{
     font-family: 'Mitr', sans-serif;
-    background: linear-gradient(180deg, #FD3E6A 0%, rgba(98, 71, 133, 0.640625) 99.97%, rgba(92, 89, 150, 0.534042) 99.98%, rgba(90, 94, 155, 0.505757) 99.99%, rgba(59, 178, 237, 0) 100%);
-
+    background: #31022C;
 }
 .bg88 {
     background: linear-gradient(180deg, #0A0047 0%, #7F0238 97.92%, #C0000E 100%);
@@ -69,7 +68,7 @@ border-radius: 15px;
     font-size: 12px;
 }
 .service{
-    margin-top: 150px;
+    margin-top: 100px;
     
 }
 .center {
@@ -82,6 +81,11 @@ border-radius: 15px;
     width: 250px;
     border-radius: 5px;
 
+}
+.gamegate{
+    text-align: center;
+    align-items: center;
+    width: 100%;
 }
 
 .gamecol{
@@ -101,9 +105,9 @@ border-radius: 15px;
   .card{
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
-    background-color: #120045;
-    color: white;
+    border-radius: 0px;
+    background-color:
+    color: #000000;
     font: outline;
     text-decoration: wavy;
     
@@ -122,7 +126,14 @@ border-radius: 15px;
   }
   .textintrop{
     text-align: center;
-   font-size: larger;
-   color: #ffffff;
+    font-size: larger;
+    color: #ffffff;
 
+}
+.copyright{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: block;
+    color: #ffffff;
 }
