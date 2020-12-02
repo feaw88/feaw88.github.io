@@ -1,12 +1,17 @@
 body{
     font-family: 'Mitr', sans-serif;
+    background: linear-gradient(180deg, #FD3E6A 0%, rgba(98, 71, 133, 0.640625) 99.97%, rgba(92, 89, 150, 0.534042) 99.98%, rgba(90, 94, 155, 0.505757) 99.99%, rgba(59, 178, 237, 0) 100%);
+
 }
 .bg88 {
     background: linear-gradient(180deg, #0A0047 0%, #7F0238 97.92%, #C0000E 100%);
+    border-bottom: #ffffff;
 }
 
 .navtop88 {
     color: #ffffff;
+    border-bottom: #ffffff;
+    font-size: larger;
 }
 
 .navtop88:hover {
@@ -28,7 +33,7 @@ body{
 }
 
 .navlogin {
-    background: #249298;
+    background: #E7C25B;
     border-radius: 10px;
     color: #ffffff;
     margin: 1px;
