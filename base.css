@@ -1,0 +1,45 @@
+body{
+    font-family: 'Mitr', sans-serif;
+}
+.bg88 {
+    background: linear-gradient(180deg, #0A0047 0%, #7F0238 97.92%, #C0000E 100%);
+}
+
+.navtop88 {
+    color: #ffffff;
+}
+
+.navtop88:hover {
+    color: floralwhite;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+    text-shadow: 2px;
+}
+
+.navbutton {
+    
+}
+
+.navregis {
+    background: linear-gradient(180deg, #E44A08 0.52%, rgba(245, 38, 38, 0.86) 46.88%, #E44A08 100%);
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 4px;
+}
+
+.navlogin {
+    background: #249298;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 1px;
+}
+
+.navdeposit {
+    background: #249298;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.navregis,.navlogin,.navdeposit:hover{
+    color: #ffffff;
+}
