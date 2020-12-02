@@ -43,8 +43,28 @@ body{
     background: #249298;
     border-radius: 10px;
     color: #ffffff;
+    
 }
 
 .navregis,.navlogin,.navdeposit:hover{
     color: #ffffff;
+}
+
+.infonav{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #249298;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #500457 0%, #800741 66.15%, #CD0C1F 100%);
+border-radius: 15px;
+}
+.infohead{
+    font-weight: bold;
+    color: #ffffff;
+}
+.infopara{
+    color: #ffffff;
+    font-size: 12px;
 }
