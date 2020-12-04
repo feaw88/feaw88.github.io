@@ -1,7 +1,8 @@
-body{
+body {
     font-family: 'Mitr', sans-serif;
     background: #31022C;
 }
+
 .bg88 {
     background: linear-gradient(180deg, #0A0047 0%, #7F0238 97.92%, #C0000E 100%);
     border-bottom: #ffffff;
@@ -20,9 +21,7 @@ body{
     text-shadow: 2px;
 }
 
-.navbutton {
-    
-}
+.navbutton {}
 
 .navregis {
     background: linear-gradient(180deg, #E44A08 0.52%, rgba(245, 38, 38, 0.86) 46.88%, #E44A08 100%);
@@ -42,14 +41,15 @@ body{
     background: #249298;
     border-radius: 10px;
     color: #ffffff;
-    
 }
 
-.navregis,.navlogin,.navdeposit:hover{
+.navregis,
+.navlogin,
+.navdeposit:hover {
     color: #ffffff;
 }
 
-.infonav{
+.infonav {
     padding: 10px;
     text-align: center;
     align-items: center;
@@ -57,83 +57,150 @@ body{
     background-color: #249298;
     border-radius: 20px;
     background: linear-gradient(180deg, #500457 0%, #800741 66.15%, #CD0C1F 100%);
-border-radius: 15px;
+    border-radius: 15px;
 }
-.infohead{
+
+.infohead {
     font-weight: bold;
     color: #ffffff;
 }
-.infopara{
+
+.infopara {
     color: #ffffff;
     font-size: 12px;
 }
-.service{
+
+.service {
     margin-top: 100px;
-    
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 460px;
-  }
-.gameservice{
+}
+
+.gameservice {
     width: 250px;
     border-radius: 5px;
-
 }
-.gamegate{
+
+.gamegate {
     text-align: center;
     align-items: center;
     width: 100%;
 }
 
-.gamecol{
+.gamecol {}
 
-}
 .img.grayscale {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-  }
-  
-  img.grayscale:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+}
+
+img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
-  }
+}
 
-  .card{
+.card {
     margin-left: auto;
     margin-right: auto;
-    border-radius: 0px;
-    background-color:
-    color: #000000;
-    font: outline;
-    text-decoration: wavy;
-    
-  }
-  .logointro{
-        display: block;
-      width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  .textintro{
-      text-align: center;
-      color: #ffffff;
-      font-weight: bold;
-     
-  }
-  .textintrop{
+    border-radius: 5px;
+    background-color: color: #000000;
+}
+
+.btn-sm {
+    margin: 1px;
+}
+
+.logointro {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textintro {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.textintrop {
     text-align: center;
     font-size: larger;
     color: #ffffff;
-
 }
-.copyright{
+
+.copyright {
     text-align: center;
     align-items: center;
     align-content: center;
     display: block;
     color: #ffffff;
+}
+
+.imgservice {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .logointro {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logonav {
+        width: 200px;
+        margin-bottom: -30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infohead {
+        font-size: medium;
+    }
+    .navlogin {
+        margin: 0px;
+        margin-left: 6px;
+    }
+    .navregis {
+        margin: 0px;
+        margin-left: 6px;
+    }
+    .imgservice {
+        display: block;
+        width: 350px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        margin-top: 20px;
+        border: #7F0238;
+        border-radius: 10px;
+    }
+    .topconversion {
+        align-self: start;
+        align-items: center;
+        font-size: large;
+    }
+    .btn-sm {
+        margin: 1px;
+    }
+    .copyright {
+        padding: 10px;
+    }
+    .topconversion {
+        display: none;
+    }
 }
