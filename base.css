@@ -153,6 +153,14 @@ img.grayscale:hover {
     display: block;
 }
 
+.fixed-bottom {
+    justify-content: center;
+}
+
+navfooter {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .logointro {
         display: block;
@@ -202,5 +210,18 @@ img.grayscale:hover {
     }
     .topconversion {
         display: none;
+    }
+    .menumobile {
+        margin: 5px;
+        align-self: start;
+        text-align: center;
+        color: #ffffff;
+    }
+    .navfooter {
+        border-radius: 25px;
+        justify-content: center;
+    }
+    navfooter {
+        display: block;
     }
 }
