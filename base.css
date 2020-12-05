@@ -23,6 +23,8 @@ body {
 
 .navbar-brand {
     margin-left: 20px;
+    margin-bottom: -30px;
+    margin-top: -30px;
 }
 
 .navbutton {}
