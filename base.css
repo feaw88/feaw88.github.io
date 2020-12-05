@@ -11,7 +11,7 @@ body {
 .navtop88 {
     color: #ffffff;
     border-bottom: #ffffff;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .navtop88:hover {
@@ -32,7 +32,7 @@ body {
     border-radius: 10px;
     color: #ffffff;
     margin: 4px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .navlogin {
@@ -40,7 +40,7 @@ body {
     border-radius: 10px;
     color: #ffffff;
     margin: 1px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .navdeposit {
