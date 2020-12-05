@@ -57,7 +57,14 @@ body {
     background-color: #249298;
     border-radius: 20px;
     background: linear-gradient(180deg, #500457 0%, #800741 66.15%, #CD0C1F 100%);
+}
+
+.infoservice {
+    background: linear-gradient(180deg, #500457 0%, #800741 66.15%, #CD0C1F 100%);
     border-radius: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
 }
 
 .infohead {
@@ -118,12 +125,14 @@ img.grayscale:hover {
 }
 
 .card {
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px;
     background-color: #ffffff;
     color: #000000;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -261,18 +270,21 @@ navfooter {
     }
     .imgservice {
         display: block;
-        width: 350px;
+        width: 100%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
     .card {
+        width: 350px;
         margin-top: 20px;
         display: inline-block;
         border: #7F0238;
+        color: #7F0238;
         border-radius: 10px;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 5px;
     }
     .card:hover {
         -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
