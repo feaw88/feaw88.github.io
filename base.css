@@ -14,6 +14,45 @@ footer {
     border-color: #E7C25B;
 }
 
+.floatbar {
+    width: 180px;
+    z-index: 1000;
+    right: 30px;
+}
+
+.floatbardesign {
+    background-color: #00C300;
+    border-style: solid;
+    border: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.floatbartext {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.floatbardark {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+}
+
+.imgflot {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
 .cardfooter {
     width: 10rem;
     margin-left: auto;

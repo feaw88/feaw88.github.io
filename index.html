@@ -50,7 +50,16 @@
                     animate__infinite">สมัครสมาชิก</button></a>
         </div>
     </nav>
+    <div id="topbar" class="floatbar" style="position: fixed; top: 200px;">
+        <div class="row floatbardesign">
 
+            <h2 class="floatbartext">Add Friend</h2>
+            <a class="imgflot" target="_blank" href="https://lin.ee/a8abhjq"><img src="/asset/M.png">
+            </a>
+            <span class="floatbartext">LINE ID : @feaw88</span>
+            <p class="floatbardark" onclick="clickcloseline()">ปิดหน้าต่าง</p>
+        </div>
+    </div>
     <!-- slideshow -->
     <div id="carouselbanner" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
@@ -126,7 +135,7 @@
                 </div>
             </div>
             <div class="row addsomeborderpc" style="text-align: justify;">
-                <div class="card"> <img class="gameservice" src="asset/01_feaw88_1040x1040.jpg">
+                <div class="card"> <img class="gameservice" src="asset/01_feaw88_1040x1040 (2).jpg">
 
                 </div>
                 <div class="card"> <img class="gameservice" src="asset/02_feaw88_1040x1040.jpg">
@@ -264,6 +273,11 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+    <script>
+        function clickcloseline() {
+            document.getElementById("topbar").innerHTML = " ";
+        }
+    </script>
 </body>
 
 </html>
