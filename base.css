@@ -327,8 +327,8 @@ navfooter {
 
 @media (max-width: 600px) {
     .navbar-brand {
-        margin-left: 90px;
-        padding: 60[x];
+        margin-left: auto;
+        margin-right: auto;
     }
     .logointro {
         display: block;
@@ -337,10 +337,11 @@ navfooter {
         margin-right: auto;
     }
     .logonav {
-        width: 150px;
-        margin-bottom: -40px;
-        padding: 10px;
-        margin-top: -30px;
+        width: 120px;
+        padding: auto;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
         z-index: 10000;
     }
     .infohead {
